@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "eName": "Anil Kumar",
+      "eCompany": "Wipro",
+      "eSalary": "30000",
+      "id": 1
+    },
+    {
+      "eName": "Tapan Khuntia",
+      "eCompany": "Wipro",
+      "eSalary": "30000",
+      "id": 2
+    },
+    {
+      "eName": "Archana",
+      "eCompany": "Wipra",
+      "eSalary": "40000",
+      "id": 3
+    }
+  ]
+}

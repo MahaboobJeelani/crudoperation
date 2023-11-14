@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 8vh;
+    max-width: 100%;
+    background: #2f2f2f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(254, 111, 39);
+    text-decoration: none;
+    /* text-shadow: 0px 0px 10px ; */
+}
+
+/* ================================ Create User & Edit User Style ================================== */
+#bodystyle {
+    height: 92vh;
+    width: 100vw;
+    background: rgb(80, 102, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 49vh;
+    width: 20vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px white;
+    background: #2f2f2f;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    color: rgb(254, 111, 39);
+    text-decoration: underline;
+}
+
+form>label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(254, 111, 39);
+}
+
+form>input {
+    height: 25px;
+    width: 60%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+form>input:focus {
+    outline: none;
+    color: white;
+    font-size: 15px
+}
+
+form>button {
+    height: 34px;
+    width: 10rem;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 3px solid rgb(37, 84, 176);
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 85, 0);
+    box-shadow: 0px 0px 20px rgb(78, 105, 158);
+    cursor: pointer;
+}
+
+/* ========================================= User Data ============================= */
+table {
+    height: 92vh;
+    width: 100vw;
+    background: rgb(78, 105, 158);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section {
+    height: 300px;
+    width: 250px;
+    background: #2f2f2f;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+section>div {
+    height: 120px;
+    width: 100%;
+    background: violet;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: url("./employee.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section>tr {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr>td:first-child {
+    color: rgb(255, 85, 0);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+tr>td:last-child {
+    color: white;
+    padding-left: 20px;
+}
+
+tr>td>button {
+    height: 25px;
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(37, 84, 176);
+    border-radius: 50px;
+    background: none;
+    color: rgb(255, 85, 0);
+    box-shadow: 0px 0px 5px orange;
+    cursor: pointer;
+}
+
+tr>td>button>a:first-child {
+    text-decoration: none;
+    color: rgb(255, 85, 0);
+}
+
+tr>td>button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 10px white;
+}
